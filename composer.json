@@ -1,0 +1,22 @@
+{
+    "name": "Cli Base",
+    "description": "SF2 CLI Bootstrap",
+    "require": {
+        "symfony/console":       "2.1.*",
+        "symfony/class-loader":  "2.1.*",
+        "symfony/yaml":          "2.1.*",
+        "symfony/validator":     "2.1.*",
+        "monolog/monolog":       ">=1.0.0",
+
+        "doctrine/common":       "2.2.*",
+        "doctrine/dbal":         "2.2.*",
+
+        "php":                   ">=5.3.2"
+    },
+
+    "autoload": {
+        "psr-0": {
+            "CliBase": "src/"
+        }
+    }
+}
