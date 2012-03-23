@@ -19,7 +19,7 @@ To install it :
 
 and
 
-`composer install --verbose`
+`php composer.phar install --verbose`
 
 Tests
 -----
